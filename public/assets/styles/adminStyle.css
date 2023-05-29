@@ -1,0 +1,196 @@
+@font-face {
+    font-family: speda;
+    src: url(../fonts/Speda.ttf);
+}
+
+.multipleSelection {
+    width: 260px;
+    background-color: #B33030;
+    border-radius: 10px;
+    margin-left: 10px;
+    z-index: 2;
+}
+
+.selectBox {
+    position: relative;
+    z-index: 2;
+}
+
+.selectBox select {
+    width: 100%;
+    font-family: speda;
+    font-size: medium;
+    font-weight: bold;
+    border-radius: 10px;
+    z-index: 2;
+}
+
+.overSelect {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 2;
+}
+
+#checkBoxes2 a {
+    color: white;
+    font-family: speda;
+    text-decoration: none;
+    width: 130px;
+    text-align: center;
+    margin-top: 5px;
+    z-index: 2;
+}
+
+#checkBoxes label {
+    color: white;
+    font-family: speda;
+    z-index: 2;
+}
+
+#checkBoxes,
+#checkBoxes2 {
+    display: none;
+    position: absolute;
+    background-color: #B33030;
+    border-radius: 10px;
+    z-index: 2;
+    width: 260px;
+}
+
+#checkBoxes label,
+#checkBoxes2 a {
+    display: block;
+    border-radius: 10px;
+    z-index: 2;
+}
+
+#checkBoxes label:hover,
+#checkBoxes2 a:hover {
+    background-color: #4F615E;
+}
+.sidebar span, .formfont{
+    font-family: speda;
+}
+
+
+
+.data_search{
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    width:300px;
+    max-height: 500px;
+    position: absolute;
+    margin-top: 2px;
+    z-index: 2;
+    overflow: scroll;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+.search_card{
+    background-color: #222325;
+    width: 300px;
+    height: 150px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    display: flex;
+}
+.card_text h6{
+    margin-top: 15px;
+}
+.card_text p{
+    font-size: x-small;
+}
+
+.card_text{
+    color: white;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 130px;
+}
+.search_card img {
+    height: 150px;
+    width: 100px;
+}
+
+
+
+
+
+
+
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #222325 !important;
+  margin: auto;
+  padding: 5px;
+  border: 1px solid #888;
+  width: 80%;
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s;
+box-shadow: rgba(240, 46, 46, 0.4) 0px 5px, rgba(240, 46, 46, 0.3) 0px 10px, rgba(240, 46, 46, 0.2) 0px 15px, rgba(240, 46, 46, 0.1) 0px 20px, rgba(240, 46, 46, 0.05) 0px 25px;
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+  from {top:-300px; opacity:0}
+  to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+  from {top:-300px; opacity:0}
+  to {top:0; opacity:1}
+}
+
+/* Close Button */
+.close {
+    display: none;
+  color: white;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal-header {
+  padding: 2px 16px;
+  background-color: #5cb85c;
+  color: white;
+}
+
+.modal-body {padding: 2px 16px;}
+
+.modal-footer {
+  padding: 2px 16px;
+  background-color: #5cb85c;
+  color: white;
+}
+
+.footer{
+    color: #bbb;
+}
